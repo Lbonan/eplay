@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import Hero from '../../components/Hero'
 import Section from '../../components/Section'
-
+import cod from '../../assets/images/call_of_duty.png'
 import Gallery from '../../components/Gallery'
 
 const Product = () => {
@@ -35,7 +35,7 @@ const Product = () => {
           jogo.
         </p>
       </Section>
-      <Gallery />
+      <Gallery defaultCover={cod} name="teste" />
     </>
   )
 }
