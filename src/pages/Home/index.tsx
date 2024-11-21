@@ -31,7 +31,7 @@ export type Game = {
     system: string
     developer: string
     publisher: string
-    language: string[]
+    languages: string[]
   }
   media: {
     thumbnail: string

@@ -2,16 +2,6 @@ import { useEffect, useState } from 'react'
 import { Game } from '../Home'
 import ProductsList from '../../components/ProductsList'
 
-import resident from '../../assets/images/resident.png'
-import diablo from '../../assets/images/diablo.png'
-import fifa from '../../assets/images/fifa_23.png'
-import starWars from '../../assets/images/star_wars.png'
-import street from '../../assets/images/street_fighter.png'
-import zelda from '../../assets/images/zelda.png'
-import battlefild from '../../assets/images/battlefild.png'
-import bloodborne from '../../assets/images/bloodborne.png'
-import acBlackFlag from '../../assets/images/ac_Black_flag.png'
-
 const Categories = () => {
   const [gameAcao, setGameAcao] = useState<Game[]>([])
   const [gameEsportes, setGameEsportes] = useState<Game[]>([])
