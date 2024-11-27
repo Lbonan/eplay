@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Hero from '../../components/Hero'
 import Section from '../../components/Section'
-import cod from '../../assets/images/call_of_duty.png'
 import Gallery from '../../components/Gallery'
 import { Game } from '../Home'
 

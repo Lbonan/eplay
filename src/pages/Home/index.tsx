@@ -2,15 +2,6 @@ import { useEffect, useState } from 'react'
 import Banner from '../../components/Banner'
 import ProductsList from '../../components/ProductsList'
 
-import resident from '../../assets/images/resident.png'
-import diablo from '../../assets/images/diablo.png'
-import fifa from '../../assets/images/fifa_23.png'
-import starWars from '../../assets/images/star_wars.png'
-import street from '../../assets/images/street_fighter.png'
-import zelda from '../../assets/images/zelda.png'
-import cod from '../../assets/images/call_of_duty.png'
-import nioh from '../../assets/images/nioh2.png'
-
 export interface GalleryItem {
   type: 'image' | 'video'
   url: string
