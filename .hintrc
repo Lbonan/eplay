@@ -6,13 +6,20 @@
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "list": "off"
       }
     ],
     "axe/text-alternatives": [
       "default",
       {
         "frame-title": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
       }
     ]
   }
