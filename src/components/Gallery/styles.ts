@@ -1,8 +1,10 @@
 import styled from 'styled-components'
-import { cores } from '../../styles'
+import { breakpoint, cores } from '../../styles'
 
 export const Items = styled.ul`
   display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 `
 
 export const Action = styled.div`
@@ -20,7 +22,6 @@ export const Action = styled.div`
 `
 
 export const Item = styled.li`
-  margin-right: 16px;
   position: relative;
   cursor: pointer;
   > img {
