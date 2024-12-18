@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { TagContainer } from '../Tag/styles'
-import { breakpoint } from '../../styles'
 
 export const Imagem = styled.div`
   width: 100%;

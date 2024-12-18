@@ -1,4 +1,12 @@
+import { useDispatch, useSelector } from 'react-redux'
+
 import Button from '../Button'
+import Tag from '../Tag'
+
+import { RootReducer } from '../../store'
+import { formataPreco } from '../ProductsList'
+import { close, remove } from '../../store/reducers/cart'
+
 import {
   Overlay,
   CartContainer,
@@ -7,11 +15,7 @@ import {
   Quantity,
   CartItem
 } from './styles'
-import Tag from '../Tag'
-import { useDispatch, useSelector } from 'react-redux'
-import { RootReducer } from '../../store'
-import { close, remove } from '../../store/reducers/cart'
-import { formataPreco } from '../ProductsList'
+
 const Cart = () => {
   const { isOpen, items } = useSelector((state: RootReducer) => state.cart)
 
@@ -22,6 +26,7 @@ const Cart = () => {
   }
 
   const getTotalPrice = () => {
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     return items.reduce((acum, atual) => (acum += atual.prices.current!), 0)
   }
 

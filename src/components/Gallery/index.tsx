@@ -1,10 +1,13 @@
 import { useState } from 'react'
+
 import Section from '../Section'
 import { GalleryItem } from '../../pages/Home'
-import { Item, Items, Action, Modal, ModalContent } from './styles'
+
 import play from '../../assets/images/play.png'
 import fechar from '../../assets/images/fechar.png'
 import zoom from '../../assets/images/zoom.png'
+
+import { Item, Items, Action, Modal, ModalContent } from './styles'
 
 type Props = {
   defaultCover: string

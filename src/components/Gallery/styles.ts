@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { breakpoint, cores } from '../../styles'
+import { cores } from '../../styles'
 
 export const Items = styled.ul`
   display: flex;
@@ -23,7 +23,7 @@ export const Action = styled.div`
 
 export const Item = styled.li`
   position: relative;
-  cursor: pointer;
+  cursor: zoom-in;
   > img {
     border: 2px solid ${cores.branca};
     border-radius: 8px;
