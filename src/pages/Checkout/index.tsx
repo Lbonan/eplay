@@ -409,6 +409,8 @@ const Checkout = () => {
                           id="cardCode"
                           name="cardCode"
                           value={form.values.cardCode}
+                          onChange={form.handleChange}
+                          onBlur={form.handleBlur}
                           className={checkInputError('cardCode') ? 'error' : ''}
                           mask="999"
                         />

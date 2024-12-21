@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colors } from '../../styles'
+import { breakpoint, colors } from '../../styles'
 import { TagContainer } from '../Tag/styles'
 import { ButtonContainer } from '../Button/styles'
 
@@ -45,6 +45,10 @@ export const SideBar = styled.aside`
     line-height: 22px;
     color: ${colors.white};
     text-align: center;
+  }
+
+  @media (max-width: ${breakpoint.tablet}) {
+    max-width: 300px;
   }
 `
 
